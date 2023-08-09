@@ -1,0 +1,20 @@
+.cartel{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.name{
+    color:red;
+    border:2px solid black;
+    
+}
+.name:hover{
+    border:3px solid white;
+    color:gold;
+    padding: 40px 20px;
+    background-color: blueviolet;
+    transition: 400ms;
+}
